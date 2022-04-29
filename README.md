@@ -1,76 +1,52 @@
-# Filmoteka
-## A short-term team project by 7 collaborators:
+## Site project " :movie_camera: Filmoteka"
 
-- [Maryna Skrypnyk](https://github.com/Maryna-Skrypnyk).
-- [Yana Filippova](https://github.com/Yana-Filippova).
-- [Tetiana Shostak](https://github.com/Tetiana1386).
-- [Alexandra Shyshkovskaya](https://github.com/Alexandra-Shyshkovskaya).
-- [Natalia Prygunova](https://github.com/pryhunova).
-- [Sonya Starodub](https://github.com/sonya287).
-- [Władysław Reginiewicz ](https://github.com/Trevoule).
+## A short-term team project by 8 collaborators:
+
+- [**Team lead**: Yevhenii Herasymenko](https://github.com/Zhekager).
+- [**Scrum master** & **Front-end developer**: Maryna Skrypnyk](https://github.com/Maryna-Skrypnyk).
+- [**Front-end developer**: Yana Filippova](https://github.com/Yana-Filippova).
+- [**Front-end developer**: Tetiana Shostak](https://github.com/Tetiana1386).
+- [**Front-end developer**: Alexandra Shyshkovskaya](https://github.com/Alexandra-Shyshkovskaya).
+- [**Front-end developer**: Natalia Prygunova](https://github.com/pryhunova).
+- [**Front-end developer**: Sonya Starodub](https://github.com/sonya287).
+- [**Front-end developer**: Władysław Reginiewicz ](https://github.com/Trevoule).
 
 ## My contribution to the project:
-- Basic markup in index.html.
-- Create project structure and parcels for components.
-- slider with trailers.
-- footer with our team modal.
-- scroll-up button.
+
+- Basic markup in index.html
+- Editing the .hbs template of the modal window card
+- Styling the movie card modal window
+- Adapting a modal window for different devices
+- Connecting a modal window
+- Creating and styling pop-up notifications
 
 ## Technology used:
+
 - HTML.
 - SASS.
 - Javascript.
 - Parcel.
 - NPM packages.
 
--------------------------------------------------------------------------------------------------------
+## My contribution to the project:
 
-# parcel-project-template
+- Responsible for section My Library.
+- Responsible for section Header.
+- Coordination of team tasks.
 
-## Зависимости
+:computer: **Our goal** was to make a site that matches the layout, and also fulfills all the tasks
+set from the technical assignment. The main purpose of the site is to display popular films of the
+week, search for a specific film, as well as organize a user library to manage movie lists.
 
-На компьютере должена быть установлена LTS-версия [Node.js](https://nodejs.org/en/).
+:white_check_mark: **Throughout the project, we**:
 
-## Перед началом работы
+- practiced teamwork skills with Git;
+- continued to work with the web application bundler Parcel;
+- methodology used Scrum;
+- consolidated knowledge of HTML and SCSS.
+- consolidated the knowledge gained during the course JavaScript.
 
-Один раз на проект установить все зависимости.
+As a result of well-coordinated teamwork :handshake: our project turned out: ⬇
+[_Welcome!_](https://zhekager.github.io/project-Filmoteka/) ⬇
 
-```shell
-npm ci
-```
-
-### Разработка
-
-Запустить режим разработки.
-
-```shell
-npm run dev
-```
-
-Во вкладке браузера перейти по адресу [http://localhost:1234](http://localhost:1234).
-
-### Деплой
-
-Сборка будет автоматически собирать и деплоить продакшен версию проекта на GitHub Pages, в ветку
-`gh-pages`, каждый раз когда обновляется ветка `main`. Например, после прямого пуша или принятого
-пул-реквеста. Для этого необходимо в файле `package.json` отредактировать поле `homepage` и скрипт
-`build`, заменив `имя_пользователя` и `имя_репозитория` на свои.
-
-```json
-"homepage": "https://имя_пользователя.github.io/имя_репозитория",
-"scripts": {
-  "build": "parcel build src/*.html --public-url /имя_репозитория/"
-},
-```
-
-Через какое-то время живую страницу можно будет посмотреть по адресу указанному в отредактированном
-свойстве `homepage`, например
-[https://goitacademy.github.io/parcel-project-template](https://goitacademy.github.io/parcel-project-template).
-
-## Файлы и папки
-
-- Все паршалы файлов стилей должны лежать в папке `src/sass` и импортироваться в
-  `src/sass/main.scss`
-- Изображения добавляйте в папку `src/images`, заранее оптимизировав их. Сборщик просто копирует
-  используемые изображения чтобы не нагружать систему оптимизацией картинок, так как на слабых
-  компьютерах это может занять прилично времени.
+<a href="https://zhekager.github.io/project-Filmoteka/"><img src="./src/images/screenshot.png" alt="Filmoteka"></a>
